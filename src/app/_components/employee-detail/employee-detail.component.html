@@ -1,0 +1,21 @@
+<div *ngIf="employee">
+  <h2>{{ employee.name }} Details</h2>
+
+  <div *ngif="employee.competencies">
+    <h3>Soft Competencies</h3>
+    <div *ngFor="let employee of employee.competencies.soft">
+      {{ employee.name }}
+    </div>
+    <h3>Technical Competencies</h3>
+    <div *ngFor="let employee of employee.competencies.tech">
+      {{ employee.name }}
+    </div>
+  </div>
+
+  <div>
+    <label for="employee-name">Employee name: </label>
+    <input id="employee-name" [(ngModel)]="employee.name" placeholder="name" />
+    <button (click)="save()">save</button>
+  </div>
+</div>
+<button (click)="goBack()">go back</button>

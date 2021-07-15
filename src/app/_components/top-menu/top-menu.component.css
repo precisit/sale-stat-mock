@@ -1,0 +1,37 @@
+.top-menu {
+  background-color: white;
+}
+
+.company-header {
+  background-color: white;
+  height: 50px;
+  align-self: center;
+}
+
+.menu-options {
+  background-color: white;
+}
+
+img {
+  height: 100%;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: white;
+  color: #3d3d3d;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: #3d3d3d;
+  background-color: #e8e8e8;
+}
+
+/* Currently not working because buttons resets */
+nav a.active {
+  background-color: #b5b5d3;
+}

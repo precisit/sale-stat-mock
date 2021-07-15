@@ -1,0 +1,20 @@
+<h2>{{ title }}<i class="bi bi-calendar3"></i></h2>
+<h3>Roles</h3>
+<div>
+  <div class="data-box">This month</div>
+  <div class="data-box">Data</div>
+  <div class="data-box">Data</div>
+</div>
+<h3>Competencies</h3>
+<div>
+  <div class="data-box">This month</div>
+  <div class="data-box">Data</div>
+  <div class="data-box">Data</div>
+</div>
+
+<h2>Top Employees</h2>
+<div class="employees-menu">
+  <a *ngFor="let employee of employees" routerLink="/detail/{{ employee.id }}">
+    {{ employee.name }}
+  </a>
+</div>

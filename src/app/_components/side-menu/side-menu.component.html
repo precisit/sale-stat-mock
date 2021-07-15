@@ -1,0 +1,29 @@
+<div class="side-bar">
+  <h3>Sortera</h3>
+  <app-employee-search></app-employee-search>
+
+  <div class="row">
+    <p>Check by:</p>
+    <div class="col">
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-primary" id="dropdown" ngbDropdownToggle>
+          Month
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button ngbDropdownItem>Week</button>
+          <button ngbDropdownItem>Month</button>
+          <button ngbDropdownItem>Year</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="no-bullets">
+    <li>React <input type="checkbox" /></li>
+    <li>TypeScript <input type="checkbox" /></li>
+    <li>Java <input type="checkbox" /></li>
+    <li>SQL <input type="checkbox" /></li>
+    <li>Scrum<input type="checkbox" /></li>
+    <li>TDD<input type="checkbox" /></li>
+  </ul>
+</div>

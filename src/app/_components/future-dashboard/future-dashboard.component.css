@@ -1,0 +1,9 @@
+.data-box {
+  width: 30%;
+  height: 200px;
+  background-color: aquamarine;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}

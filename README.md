@@ -1,8 +1,13 @@
 # SaleStats
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10. Then it was structured after the heroes tutorial https://angular.io/tutorial
+This has been intended as a skills development project and therefore does not have more documentation than this read me and comments in future projects. The logic this system is trying to do is create a user interface for a future sale stats webpage. The idea of this would be that with data from a backend, this webpage would display data about the current market status for its consultants and a prediction of the future. This would include what roles are mostly looked for and what competencies these roles demand.
 
-## Development server
+**note** I honestly don't think there is any sense to continue to build from this project as it will probably take the same amount of time to learn angular and get into this project as starting from scratch and doing it yourself. But it is here to create a visual idea.(Desireé B.)
+
+**note** Currently the search is broken but it looks for employees not competensies.
+
+## Development server, how to start
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

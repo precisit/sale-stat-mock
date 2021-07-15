@@ -1,0 +1,11 @@
+.side-bar {
+  padding: 10px;
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
